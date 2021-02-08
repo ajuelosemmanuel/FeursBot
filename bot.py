@@ -73,7 +73,10 @@ async def on_message(message):
             await message.channel.send(content="lope", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
         if (message.content == "re" ):
             await message.channel.send(content="nard", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
+        if message.content.endswith( "mais" ):
+            await message.channel.send(content="téo", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
+        if message.content.endswith( "vois" ):
+            await message.channel.send(content="ture", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
     await client.process_commands(message)
-
 
 client.run(token)
