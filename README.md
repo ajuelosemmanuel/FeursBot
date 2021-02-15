@@ -23,11 +23,11 @@ Need to have discord.py[voice] and opus - Will probably need to have one of thos
 
 # What does he do ?
 
-For commands : check .help
+For commands : check .help / will update here when I'm a bit less busy.
 
 Else : says "feur" when someone says "quoi", and maybe a little bit more :)
 
-# I used code from those people / videos / websites
+# I used code from those people / videos / websites ( might have forgotten some, tell me if I did so !)
 
 @sairam4123
 
