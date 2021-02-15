@@ -200,7 +200,7 @@ async def feurTestVoc(ctx, me_only: bool = True):
             print("Tu viens de dire : {}".format(text))
             if text.endswith('quoi'):
                 voice = ctx.channel.guild.voice_client
-                voice.play(discord.FFmpegPCMAudio(executable="C:/Users/Admin/Downloads/osr2mp4win64/osr2mp4/ffmpeg.exe", source="./audio/feurManu.mp3"))
+                voice.play(discord.FFmpegPCMAudio(executable="YOURFFMPEGPATH", source="./audio/feurManu.mp3"))
         except:
             await ctx.send("j'ai pas capté le sang")
 
@@ -208,7 +208,7 @@ async def feurTestVoc(ctx, me_only: bool = True):
 async def banger(ctx):
     await ctx.author.voice.channel.connect()
     voice = ctx.channel.guild.voice_client
-    voice.play(discord.FFmpegPCMAudio(executable="C:/Users/Admin/Downloads/osr2mp4win64/osr2mp4/ffmpeg.exe", source="./audio/tektonik.mp3"))
+    voice.play(discord.FFmpegPCMAudio(executable="YOURFFMPEGPATH", source="./audio/tektonik.mp3"))
 
 @loop(seconds=4)
 async def save_number_loop():
@@ -279,7 +279,7 @@ async def on_message(message):
         if msg.endswith( "vois" ):
             await message.channel.send(content="ture", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
         #if (msg == "!wa" ):
-            await message.channel.send(content="rex le giga dog ? bah non c'est plutôt toi le chien avec tes filles manga", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
+            #await message.channel.send(content="rex le giga dog ? bah non c'est plutôt toi le chien avec tes filles manga", tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None, reference=None, mention_author=None)
     await client.process_commands(message)
 
 client.run(token)
