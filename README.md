@@ -29,6 +29,8 @@ Else : says "feur" when someone says "quoi", and maybe a little bit more :)
 
 # I used code from those people / videos / websites
 
-@sairam4123 - 
+@sairam4123
+
 https://www.youtube.com/watch?v=xdkvR-yOzBM&ab_channel=CodePalace
+
 https://www.thepythoncode.com/code/using-speech-recognition-to-convert-speech-to-text-python
