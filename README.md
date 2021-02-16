@@ -36,3 +36,14 @@ Else : says "feur" when someone says "quoi", and maybe a little bit more :)
 https://www.youtube.com/watch?v=xdkvR-yOzBM&ab_channel=CodePalace
 
 https://www.thepythoncode.com/code/using-speech-recognition-to-convert-speech-to-text-python
+
+# To Do
+
+- Complete the README
+- Add a packages.txt file to make your life easier
+- Improve the speech recognition (not able to do that atm, I'll pray for discord.py to implement that one day)
+
+# Want more features ?
+
+Feel free to contact me either through discord or mail, I'll see what I can do for you ! I don't have plans for this bot so I guess it will do random stuff for now :)
+
