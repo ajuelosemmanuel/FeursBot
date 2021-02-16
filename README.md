@@ -1,6 +1,13 @@
 # Feurs Bot
 Little Discord bot to learn how it works !
 
+# Want to add Feurs ?
+
+https://discord.com/api/oauth2/authorize?client_id=805559389963681822&permissions=8&scope=bot
+
+Why admin permissions ? Because I'm lazy and that I don't know what I'll do with the bot.
+If you add the bot to one of your servers, please tell me ! I'd love to know why you added it and have feedback !
+
 # Requirements
 
 Packages :
@@ -46,4 +53,3 @@ https://www.thepythoncode.com/code/using-speech-recognition-to-convert-speech-to
 # Want more features ?
 
 Feel free to contact me either through discord or mail, I'll see what I can do for you ! I don't have plans for this bot so I guess it will do random stuff for now :)
-
