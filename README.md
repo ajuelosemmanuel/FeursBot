@@ -11,7 +11,7 @@ Packages :
 - speech_recognition
 - pydub
 - moviepy
-- googletrans
+- googletrans==3.1.0a0
 - pytube
 - discord.ext.tasks
 - pathlib
@@ -19,7 +19,7 @@ Packages :
 
 Maybe more stuff, did not check well D:
 
-Need to have discord.py[voice] and opus - Will probably need to have one of those : https://github.com/Gorialis/discord.py/tree/voice-recv-mk3 or https://github.com/imayhaveborkedit/discord.py
+Need to have opus and FFMPEG - This version of discord.py[voice] : https://github.com/Gorialis/discord.py/tree/voice-recv-mk3
 
 # What does he do ?
 
