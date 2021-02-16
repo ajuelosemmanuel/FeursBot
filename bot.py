@@ -37,7 +37,7 @@ async def help(ctx):
     em = discord.Embed(title = "Help", description = "Use .help <command> for extended information.")
     em.add_field(name = "Voice", value = "join, leave, feurTestVoc")
     em.add_field(name = "Fun", value = "ching, pieds, banger")
-    em.add_field(name = "Misc", value = "servers, compOrale")
+    em.add_field(name = "Misc", value = "servers, compOrale, translate")
     await ctx.send(embed = em)
 
 @help.command()
