@@ -19,7 +19,10 @@ Packages :
 
 Maybe more stuff, did not check well D:
 
-Need to have opus and FFMPEG - This version of discord.py[voice] : https://github.com/Gorialis/discord.py/tree/voice-recv-mk3
+Need to have opus and FFMPEG - This version of discord.py[voice] : https://github.com/Gorialis/discord.py/tree/voice-recv-mk3 that you can instal directly with
+```
+pip install -U "discord.py[voice] @ git+https://github.com/Gorialis/discord.py@voice-recv-mk3"
+```
 
 # What does he do ?
 
