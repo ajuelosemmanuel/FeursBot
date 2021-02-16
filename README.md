@@ -13,7 +13,6 @@ Packages :
 - moviepy
 - googletrans==3.1.0a0
 - pytube
-- discord.ext.tasks
 - pathlib
 - ffmpeg
 
