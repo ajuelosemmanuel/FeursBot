@@ -46,9 +46,7 @@ https://www.thepythoncode.com/code/using-speech-recognition-to-convert-speech-to
 
 # To Do
 
-- Complete the README
-- Add a packages.txt file to make your life easier
-- Improve the speech recognition (not able to do that atm, I'll pray for discord.py to implement that one day)
+- Improve the speech recognition (not able to do that atm, I'll pray for discord.py to implement that one day) // Managed to make it work on javascript using healzer's DiscordEarsBot (that you can find here : https://github.com/healzer/DiscordEarsBot). However, it is not possible to do it efficiently on python at the moment (11/03/2021).
 
 # Want more features ?
 
